@@ -9,7 +9,8 @@
     "prettier": "npx prettier --check .",
     "prettier:fix": "npx prettier --write .",
     "format": "npm run prettier && npm run stylelint",
-    "browser": "browser-sync start --config bs-config.js"
+    "browser": "browser-sync start --config bs-config.js",
+    "tailwind": "npx tailwindcss -i ./input.css -o ./output.css --watch"
   },
   "author": "Nyon",
   "license": "ISC",
